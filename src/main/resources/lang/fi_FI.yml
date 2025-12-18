@@ -1,0 +1,23 @@
+# Suomi (Suomi)
+language:
+  name: "Suomi"
+  code: "fi_FI"
+
+messages:
+  no-permission: "&c✗ Sinulla ei ole lupaa!"
+  config-reloaded: "&a✓ Asetukset ladattu uudelleen!"
+  invalid-command: "&cKäyttö: /asc <reload|list>"
+  player-only: "&c✗ Vain pelaajille!"
+  channels-loaded: "&a✓ {count} kanavaa ladattu"
+  
+  helpme-disabled: "&c✗ HelpMe pois käytöstä!"
+  helpme-usage: "&cKäyttö: /helpme <viesti>"
+  helpme-sent: "&a✓ Apupyyntö lähetetty henkilökunnalle!"
+  helpme-cooldown: "&c✗ Odota {time} sekuntia!"
+  no-admins-online: "&c✗ Henkilökunta ei ole paikalla!"
+  
+  log-rotation-complete: "&a✓ Loki kierrätetty: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktiiviset kanavat &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7tai &f{shortcut}"
+  channel-list-footer: "&6&m                                    "
