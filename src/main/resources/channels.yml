@@ -1,0 +1,113 @@
+# AdminSuiteChat - Channels Configuration
+# Separate file for better organization
+
+channels:
+  admin:
+    enabled: true
+    shortcut: "@a"
+    command: "admin"
+    permission: "adminsuitechat.admin"
+    prefix: "&4&l[ADMIN]&r"
+    format: "{prefix} &c{player}&8: &f{message}"
+    console-format: "&4[ADMIN]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "admin.log"
+    luckperms-group: "admin"
+
+  developer:
+    enabled: true
+    shortcut: "@d"
+    command: "developer"
+    permission: "adminsuitechat.developer"
+    prefix: "&3&l[DEV]&r"
+    format: "{prefix} &b{player}&8: &f{message}"
+    console-format: "&3[DEV]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "developer.log"
+    luckperms-group: "developer"
+
+  moderator:
+    enabled: true
+    shortcut: "@m"
+    command: "moderator"
+    permission: "adminsuitechat.moderator"
+    prefix: "&9&l[MOD]&r"
+    format: "{prefix} &9{player}&8: &f{message}"
+    console-format: "&9[MOD]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "moderator.log"
+    luckperms-group: "moderator"
+
+  helper:
+    enabled: true
+    shortcut: "@h"
+    command: "helper"
+    permission: "adminsuitechat.helper"
+    prefix: "&a&l[HELPER]&r"
+    format: "{prefix} &a{player}&8: &f{message}"
+    console-format: "&a[HELPER]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "helper.log"
+    luckperms-group: "helper"
+
+  builder:
+    enabled: true
+    shortcut: "@b"
+    command: "builder"
+    permission: "adminsuitechat.builder"
+    prefix: "&6&l[BUILDER]&r"
+    format: "{prefix} &6{player}&8: &f{message}"
+    console-format: "&6[BUILDER]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "builder.log"
+    luckperms-group: "builder"
+
+  staff:
+    enabled: true
+    shortcut: "@s"
+    command: "staff"
+    permission: "adminsuitechat.staff"
+    prefix: "&e&l[STAFF]&r"
+    format: "{prefix} &e{player}&8: &f{message}"
+    console-format: "&e[STAFF]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "staff.log"
+    luckperms-group: "staff"
+
+  vip:
+    enabled: true
+    shortcut: "@v"
+    command: "vip"
+    permission: "adminsuitechat.vip"
+    prefix: "&d&l[VIP]&r"
+    format: "{prefix} &d{player}&8: &f{message}"
+    console-format: "&d[VIP]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "vip.log"
+    luckperms-group: "vip"
+
+  vipplus:
+    enabled: true
+    shortcut: "@vp"
+    command: "vipplus"
+    permission: "adminsuitechat.vipplus"
+    prefix: "&5&l[VIP+]&r"
+    format: "{prefix} &5{player}&8: &f{message}"
+    console-format: "&5[VIP+]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "vipplus.log"
+    luckperms-group: "vipplus"
+
+# Custom Channels (can be added/removed)
+custom-channels:
+  ch1:
+    enabled: true
+    shortcut: "@c1"
+    command: "ch1"
+    permission: "adminsuitechat.ch1"
+    prefix: "&7&l[CH1]&r"
+    format: "{prefix} &7{player}&8: &f{message}"
+    console-format: "&7[CH1]&r {player}: {message}"
+    log-to-file: false  # Disabled
+    log-filename: "ch1.log"
+    luckperms-group: ""
