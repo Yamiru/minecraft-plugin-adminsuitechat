@@ -1,0 +1,52 @@
+# AdminSuiteChat - Configuration File
+# Author: yamiru
+# Version: 1.0
+# GitHub: https://github.com/yamiru/minecraft-plugin-adminsuitechat
+# Compatible with: Spigot, Paper, Purpur, Folia 1.21+
+
+# General Settings
+settings:
+  enabled: true
+  language: "en_US"
+  use-placeholderapi: false
+  luckperms-sync: false
+  use-channel-commands: true
+  debug: false  # Set to true for debugging
+
+# Anti-Spam Protection
+anti-spam:
+  enabled: true
+  max-messages-per-second: 3
+  block-duration-seconds: 5
+
+# Logging Configuration
+logging:
+  enabled: true
+  rotation-enabled: true
+  max-log-size-mb: 10
+  archive-compression: true
+  auto-cleanup-archives: true
+  max-archives: 5
+  archive-retention-days: 30
+
+# HelpMe System
+helpme:
+  helpme1:
+    enabled: true
+    cooldown-seconds: 60
+    allow-bypass: true
+    max-message-length: 256
+    prefix: "&c&l[HELP]&r"
+    format: "{prefix} &7{player} needs help: &f{message}"
+    console-format: "[HELP] {player}: {message}"
+    log-requests: true  # Changed to true - log HelpMe requests
+    
+  helpme2:
+    enabled: true
+    cooldown-seconds: 60
+    allow-bypass: true
+    max-message-length: 256
+    prefix: "&c&l[HELP2]&r"
+    format: "{prefix} &7{player} needs help: &f{message}"
+    console-format: "[HELP2] {player}: {message}"
+    log-requests: true  # Changed to true - log HelpMe requests
