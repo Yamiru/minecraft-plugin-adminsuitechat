@@ -1,0 +1,83 @@
+name: AdminSuiteChat
+version: '${project.version}'
+main: sk.yamiru.adminsuitechat.AdminSuiteChat
+author: yamiru
+description: Advanced admin chat system with logging, PlaceholderAPI and LuckPerms integration
+website: https://github.com/yamiru/minecraft-plugin-adminsuitechat
+api-version: '1.21'
+folia-supported: true
+softdepend: [PlaceholderAPI, LuckPerms]
+
+commands:
+  adminsuitechat:
+    description: Main plugin command
+    aliases: [asc, aschat]
+    usage: /adminsuitechat <reload|list|toggle|clearlogs|cleanarchives>
+  helpme:
+    description: Send anonymous help request to admins
+    usage: /helpme <message>
+  helpme2:
+    description: Secondary help request command
+    usage: /helpme2 <message>
+
+permissions:
+  adminsuitechat.*:
+    description: All permissions
+    children:
+      adminsuitechat.admin: true
+      adminsuitechat.developer: true
+      adminsuitechat.moderator: true
+      adminsuitechat.helper: true
+      adminsuitechat.builder: true
+      adminsuitechat.staff: true
+      adminsuitechat.vip: true
+      adminsuitechat.vipplus: true
+      adminsuitechat.ch1: true
+      adminsuitechat.helpme: true
+      adminsuitechat.helpme.see: true
+      adminsuitechat.helpme.bypass: true
+      adminsuitechat.reload: true
+      adminsuitechat.list: true
+  
+  adminsuitechat.admin:
+    description: Access to admin channel
+    default: op
+  adminsuitechat.developer:
+    description: Access to developer channel
+    default: op
+  adminsuitechat.moderator:
+    description: Access to moderator channel
+    default: op
+  adminsuitechat.helper:
+    description: Access to helper channel
+    default: op
+  adminsuitechat.builder:
+    description: Access to builder channel
+    default: op
+  adminsuitechat.staff:
+    description: Access to staff channel
+    default: op
+  adminsuitechat.vip:
+    description: Access to VIP channel
+    default: false
+  adminsuitechat.vipplus:
+    description: Access to VIP+ channel
+    default: false
+  adminsuitechat.ch1:
+    description: Access to custom channel 1
+    default: op
+  adminsuitechat.helpme:
+    description: Send HelpMe requests
+    default: true
+  adminsuitechat.helpme.see:
+    description: See HelpMe requests
+    default: op
+  adminsuitechat.helpme.bypass:
+    description: Bypass HelpMe cooldown
+    default: op
+  adminsuitechat.reload:
+    description: Reload plugin configuration
+    default: op
+  adminsuitechat.list:
+    description: List all channels
+    default: op
