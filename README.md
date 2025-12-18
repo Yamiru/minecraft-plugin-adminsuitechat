@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Version](https://img.shields.io/badge/version-1.0-blue)
-![Minecraft](https://img.shields.io/badge/minecraft-1.19--1.21-green)
+![Minecraft](https://img.shields.io/badge/minecraft-1.21-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **Professional Admin Communication Plugin for Minecraft Servers**
