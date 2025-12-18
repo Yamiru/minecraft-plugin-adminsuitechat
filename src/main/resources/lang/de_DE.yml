@@ -1,0 +1,23 @@
+# Deutsch (Deutschland)
+language:
+  name: "Deutsch"
+  code: "de_DE"
+
+messages:
+  no-permission: "&c✗ Du hast keine Berechtigung!"
+  config-reloaded: "&a✓ Konfiguration neu geladen!"
+  invalid-command: "&cVerwendung: /asc <reload|list>"
+  player-only: "&c✗ Nur für Spieler!"
+  channels-loaded: "&a✓ {count} Kanäle geladen"
+  
+  helpme-disabled: "&c✗ HelpMe deaktiviert!"
+  helpme-usage: "&cVerwendung: /helpme <Nachricht>"
+  helpme-sent: "&a✓ Hilfeanfrage an Personal gesendet!"
+  helpme-cooldown: "&c✗ Bitte warte noch {time} Sekunden!"
+  no-admins-online: "&c✗ Kein Personal online!"
+  
+  log-rotation-complete: "&a✓ Log rotiert: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktive Kanäle &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7oder &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

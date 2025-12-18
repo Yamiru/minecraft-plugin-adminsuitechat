@@ -1,0 +1,23 @@
+# Español (España)
+language:
+  name: "Español"
+  code: "es_ES"
+
+messages:
+  no-permission: "&c✗ ¡No tienes permiso!"
+  config-reloaded: "&a✓ ¡Configuración recargada!"
+  invalid-command: "&cUso: /asc <reload|list>"
+  player-only: "&c✗ ¡Solo para jugadores!"
+  channels-loaded: "&a✓ {count} canales cargados"
+  
+  helpme-disabled: "&c✗ ¡HelpMe desactivado!"
+  helpme-usage: "&cUso: /helpme <mensaje>"
+  helpme-sent: "&a✓ ¡Solicitud de ayuda enviada al personal!"
+  helpme-cooldown: "&c✗ ¡Espera {time} segundos!"
+  no-admins-online: "&c✗ ¡No hay personal en línea!"
+  
+  log-rotation-complete: "&a✓ Log rotado: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lCanales activos &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7o &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

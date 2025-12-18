@@ -1,0 +1,23 @@
+# Română (România)
+language:
+  name: "Română"
+  code: "ro_RO"
+
+messages:
+  no-permission: "&c✗ Nu ai permisiune!"
+  config-reloaded: "&a✓ Configurație reîncărcată!"
+  invalid-command: "&cUtilizare: /asc <reload|list>"
+  player-only: "&c✗ Doar pentru jucători!"
+  channels-loaded: "&a✓ {count} canale încărcate"
+  
+  helpme-disabled: "&c✗ HelpMe dezactivat!"
+  helpme-usage: "&cUtilizare: /helpme <mesaj>"
+  helpme-sent: "&a✓ Cerere de ajutor trimisă personalului!"
+  helpme-cooldown: "&c✗ Așteaptă {time} secunde!"
+  no-admins-online: "&c✗ Niciun membru al personalului online!"
+  
+  log-rotation-complete: "&a✓ Jurnal rotit: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lCanale active &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7sau &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

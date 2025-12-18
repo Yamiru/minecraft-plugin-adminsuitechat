@@ -1,0 +1,23 @@
+# 日本語 (日本)
+language:
+  name: "日本語"
+  code: "ja_JP"
+
+messages:
+  no-permission: "&c✗ 権限がありません!"
+  config-reloaded: "&a✓ 設定が再読み込みされました!"
+  invalid-command: "&c使用法: /asc <reload|list>"
+  player-only: "&c✗ プレイヤーのみ!"
+  channels-loaded: "&a✓ {count}個のチャンネルを読み込みました"
+  
+  helpme-disabled: "&c✗ HelpMeが無効です!"
+  helpme-usage: "&c使用法: /helpme <メッセージ>"
+  helpme-sent: "&a✓ ヘルプリクエストをスタッフに送信しました!"
+  helpme-cooldown: "&c✗ あと{time}秒お待ちください!"
+  no-admins-online: "&c✗ スタッフがオンラインにいません!"
+  
+  log-rotation-complete: "&a✓ ログローテーション完了: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lアクティブチャンネル &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7または &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

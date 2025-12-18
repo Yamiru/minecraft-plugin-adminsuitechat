@@ -1,0 +1,23 @@
+# Hrvatski (Hrvatska)
+language:
+  name: "Hrvatski"
+  code: "hr_HR"
+
+messages:
+  no-permission: "&c✗ Nemaš dozvolu!"
+  config-reloaded: "&a✓ Konfiguracija ponovno učitana!"
+  invalid-command: "&cKorištenje: /asc <reload|list>"
+  player-only: "&c✗ Samo za igrače!"
+  channels-loaded: "&a✓ Učitano {count} kanala"
+  
+  helpme-disabled: "&c✗ HelpMe onemogućen!"
+  helpme-usage: "&cKorištenje: /helpme <poruka>"
+  helpme-sent: "&a✓ Zahtjev za pomoć poslan osoblju!"
+  helpme-cooldown: "&c✗ Molimo pričekaj {time} sekundi!"
+  no-admins-online: "&c✗ Nema osoblja na mreži!"
+  
+  log-rotation-complete: "&a✓ Dnevnik rotiran: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktivni kanali &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7ili &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

@@ -1,0 +1,23 @@
+# Français (France)
+language:
+  name: "Français"
+  code: "fr_FR"
+
+messages:
+  no-permission: "&c✗ Vous n'avez pas la permission!"
+  config-reloaded: "&a✓ Configuration rechargée!"
+  invalid-command: "&cUtilisation: /asc <reload|list>"
+  player-only: "&c✗ Joueurs seulement!"
+  channels-loaded: "&a✓ {count} canaux chargés"
+  
+  helpme-disabled: "&c✗ HelpMe désactivé!"
+  helpme-usage: "&cUtilisation: /helpme <message>"
+  helpme-sent: "&a✓ Demande d'aide envoyée au personnel!"
+  helpme-cooldown: "&c✗ Veuillez attendre {time} secondes!"
+  no-admins-online: "&c✗ Aucun personnel en ligne!"
+  
+  log-rotation-complete: "&a✓ Log tourné: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lCanaux actifs &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7ou &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

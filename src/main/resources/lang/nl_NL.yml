@@ -1,0 +1,23 @@
+# Nederlands (Nederland)
+language:
+  name: "Nederlands"
+  code: "nl_NL"
+
+messages:
+  no-permission: "&c✗ Je hebt geen toestemming!"
+  config-reloaded: "&a✓ Configuratie herladen!"
+  invalid-command: "&cGebruik: /asc <reload|list>"
+  player-only: "&c✗ Alleen voor spelers!"
+  channels-loaded: "&a✓ {count} kanalen geladen"
+  
+  helpme-disabled: "&c✗ HelpMe uitgeschakeld!"
+  helpme-usage: "&cGebruik: /helpme <bericht>"
+  helpme-sent: "&a✓ Hulpverzoek verstuurd naar personeel!"
+  helpme-cooldown: "&c✗ Wacht nog {time} seconden!"
+  no-admins-online: "&c✗ Geen personeel online!"
+  
+  log-rotation-complete: "&a✓ Log geroteerd: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lActieve kanalen &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7of &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

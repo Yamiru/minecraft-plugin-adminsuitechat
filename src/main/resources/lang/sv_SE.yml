@@ -1,0 +1,23 @@
+# Svenska (Sverige)
+language:
+  name: "Svenska"
+  code: "sv_SE"
+
+messages:
+  no-permission: "&c✗ Du har inte behörighet!"
+  config-reloaded: "&a✓ Konfiguration omladdad!"
+  invalid-command: "&cAnvändning: /asc <reload|list>"
+  player-only: "&c✗ Endast för spelare!"
+  channels-loaded: "&a✓ {count} kanaler laddade"
+  
+  helpme-disabled: "&c✗ HelpMe inaktiverad!"
+  helpme-usage: "&cAnvändning: /helpme <meddelande>"
+  helpme-sent: "&a✓ Hjälpförfrågan skickad till personal!"
+  helpme-cooldown: "&c✗ Vänta {time} sekunder!"
+  no-admins-online: "&c✗ Ingen personal online!"
+  
+  log-rotation-complete: "&a✓ Logg roterad: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktiva kanaler &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7eller &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

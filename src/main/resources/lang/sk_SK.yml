@@ -1,0 +1,23 @@
+# Slovenčina (Slovensko)
+language:
+  name: "Slovenčina"
+  code: "sk_SK"
+
+messages:
+  no-permission: "&c✗ Nemáš oprávnenie!"
+  config-reloaded: "&a✓ Konfigurácia znovu načítaná!"
+  invalid-command: "&cPoužitie: /asc <reload|list>"
+  player-only: "&c✗ Len pre hráčov!"
+  channels-loaded: "&a✓ Načítaných {count} kanálov"
+  
+  helpme-disabled: "&c✗ HelpMe je vypnuté!"
+  helpme-usage: "&cPoužitie: /helpme <správa>"
+  helpme-sent: "&a✓ Žiadosť o pomoc odoslaná personálu!"
+  helpme-cooldown: "&c✗ Počkaj ešte {time} sekúnd!"
+  no-admins-online: "&c✗ Žiadny personál nie je online!"
+  
+  log-rotation-complete: "&a✓ Log rotovaný: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktívne kanály &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7alebo &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

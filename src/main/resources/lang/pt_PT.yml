@@ -1,0 +1,23 @@
+# Português (Portugal)
+language:
+  name: "Português"
+  code: "pt_PT"
+
+messages:
+  no-permission: "&c✗ Não tens permissão!"
+  config-reloaded: "&a✓ Configuração recarregada!"
+  invalid-command: "&cUso: /asc <reload|list>"
+  player-only: "&c✗ Apenas para jogadores!"
+  channels-loaded: "&a✓ {count} canais carregados"
+  
+  helpme-disabled: "&c✗ HelpMe desativado!"
+  helpme-usage: "&cUso: /helpme <mensagem>"
+  helpme-sent: "&a✓ Pedido de ajuda enviado para a equipa!"
+  helpme-cooldown: "&c✗ Aguarda {time} segundos!"
+  no-admins-online: "&c✗ Nenhum membro da equipa online!"
+  
+  log-rotation-complete: "&a✓ Registo rodado: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lCanais ativos &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7ou &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

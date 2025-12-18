@@ -1,0 +1,23 @@
+# Български (България)
+language:
+  name: "Български"
+  code: "bg_BG"
+
+messages:
+  no-permission: "&c✗ Нямате разрешение!"
+  config-reloaded: "&a✓ Конфигурацията е презаредена!"
+  invalid-command: "&cИзползване: /asc <reload|list>"
+  player-only: "&c✗ Само за играчи!"
+  channels-loaded: "&a✓ Заредени {count} канала"
+  
+  helpme-disabled: "&c✗ HelpMe е изключено!"
+  helpme-usage: "&cИзползване: /helpme <съобщение>"
+  helpme-sent: "&a✓ Искането за помощ е изпратено до персонала!"
+  helpme-cooldown: "&c✗ Моля, изчакайте {time} секунди!"
+  no-admins-online: "&c✗ Няма персонал онлайн!"
+  
+  log-rotation-complete: "&a✓ Лог ротиран: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lАктивни канали &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7или &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

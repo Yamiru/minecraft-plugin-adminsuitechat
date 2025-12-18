@@ -1,0 +1,23 @@
+# Magyar (Magyarország)
+language:
+  name: "Magyar"
+  code: "hu_HU"
+
+messages:
+  no-permission: "&c✗ Nincs jogosultságod!"
+  config-reloaded: "&a✓ Konfiguráció újratöltve!"
+  invalid-command: "&cHasználat: /asc <reload|list>"
+  player-only: "&c✗ Csak játékosoknak!"
+  channels-loaded: "&a✓ {count} csatorna betöltve"
+  
+  helpme-disabled: "&c✗ HelpMe letiltva!"
+  helpme-usage: "&cHasználat: /helpme <üzenet>"
+  helpme-sent: "&a✓ Segítségkérés elküldve a személyzetnek!"
+  helpme-cooldown: "&c✗ Várj {time} másodpercet!"
+  no-admins-online: "&c✗ Nincs személyzet online!"
+  
+  log-rotation-complete: "&a✓ Napló rotálva: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktív csatornák &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7vagy &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

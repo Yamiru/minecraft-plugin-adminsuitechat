@@ -1,0 +1,23 @@
+# 한국어 (대한민국)
+language:
+  name: "한국어"
+  code: "ko_KR"
+
+messages:
+  no-permission: "&c✗ 권한이 없습니다!"
+  config-reloaded: "&a✓ 설정이 다시 로드되었습니다!"
+  invalid-command: "&c사용법: /asc <reload|list>"
+  player-only: "&c✗ 플레이어만 가능합니다!"
+  channels-loaded: "&a✓ {count}개의 채널이 로드되었습니다"
+  
+  helpme-disabled: "&c✗ HelpMe가 비활성화되었습니다!"
+  helpme-usage: "&c사용법: /helpme <메시지>"
+  helpme-sent: "&a✓ 도움 요청이 스태프에게 전송되었습니다!"
+  helpme-cooldown: "&c✗ {time}초 기다려주세요!"
+  no-admins-online: "&c✗ 온라인 스태프가 없습니다!"
+  
+  log-rotation-complete: "&a✓ 로그 회전 완료: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&l활성 채널 &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7또는 &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

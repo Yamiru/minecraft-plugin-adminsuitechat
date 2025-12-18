@@ -1,0 +1,23 @@
+# Italiano (Italia)
+language:
+  name: "Italiano"
+  code: "it_IT"
+
+messages:
+  no-permission: "&c✗ Non hai il permesso!"
+  config-reloaded: "&a✓ Configurazione ricaricata!"
+  invalid-command: "&cUso: /asc <reload|list>"
+  player-only: "&c✗ Solo per giocatori!"
+  channels-loaded: "&a✓ {count} canali caricati"
+  
+  helpme-disabled: "&c✗ HelpMe disabilitato!"
+  helpme-usage: "&cUso: /helpme <messaggio>"
+  helpme-sent: "&a✓ Richiesta di aiuto inviata allo staff!"
+  helpme-cooldown: "&c✗ Aspetta {time} secondi!"
+  no-admins-online: "&c✗ Nessun membro dello staff online!"
+  
+  log-rotation-complete: "&a✓ Log ruotato: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lCanali attivi &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7o &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

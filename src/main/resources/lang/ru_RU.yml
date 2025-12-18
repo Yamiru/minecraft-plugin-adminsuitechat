@@ -1,0 +1,23 @@
+# Русский (Россия)
+language:
+  name: "Русский"
+  code: "ru_RU"
+
+messages:
+  no-permission: "&c✗ У вас нет прав!"
+  config-reloaded: "&a✓ Конфигурация перезагружена!"
+  invalid-command: "&cИспользование: /asc <reload|list>"
+  player-only: "&c✗ Только для игроков!"
+  channels-loaded: "&a✓ Загружено {count} каналов"
+  
+  helpme-disabled: "&c✗ HelpMe отключено!"
+  helpme-usage: "&cИспользование: /helpme <сообщение>"
+  helpme-sent: "&a✓ Запрос помощи отправлен персоналу!"
+  helpme-cooldown: "&c✗ Подождите еще {time} секунд!"
+  no-admins-online: "&c✗ Персонал не в сети!"
+  
+  log-rotation-complete: "&a✓ Лог ротирован: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lАктивные каналы &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7или &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

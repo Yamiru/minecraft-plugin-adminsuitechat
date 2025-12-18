@@ -1,0 +1,23 @@
+# Српски (Србија)
+language:
+  name: "Српски"
+  code: "sr_RS"
+
+messages:
+  no-permission: "&c✗ Немате дозволу!"
+  config-reloaded: "&a✓ Конфигурација поново учитана!"
+  invalid-command: "&cКоришћење: /asc <reload|list>"
+  player-only: "&c✗ Само за играче!"
+  channels-loaded: "&a✓ Учитано {count} канала"
+  
+  helpme-disabled: "&c✗ HelpMe је онемогућено!"
+  helpme-usage: "&cКоришћење: /helpme <порука>"
+  helpme-sent: "&a✓ Захтев за помоћ послат особљу!"
+  helpme-cooldown: "&c✗ Молимо сачекајте {time} секунди!"
+  no-admins-online: "&c✗ Нема особља на мрежи!"
+  
+  log-rotation-complete: "&a✓ Дневник ротиран: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lАктивни канали &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7или &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

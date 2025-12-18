@@ -1,0 +1,23 @@
+# Українська (Україна)
+language:
+  name: "Українська"
+  code: "uk_UA"
+
+messages:
+  no-permission: "&c✗ У вас немає дозволу!"
+  config-reloaded: "&a✓ Конфігурацію перезавантажено!"
+  invalid-command: "&cВикористання: /asc <reload|list>"
+  player-only: "&c✗ Тільки для гравців!"
+  channels-loaded: "&a✓ Завантажено {count} каналів"
+  
+  helpme-disabled: "&c✗ HelpMe вимкнено!"
+  helpme-usage: "&cВикористання: /helpme <повідомлення>"
+  helpme-sent: "&a✓ Запит про допомогу надіслано персоналу!"
+  helpme-cooldown: "&c✗ Зачекайте ще {time} секунд!"
+  no-admins-online: "&c✗ Персонал не в мережі!"
+  
+  log-rotation-complete: "&a✓ Лог повернуто: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lАктивні канали &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7або &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

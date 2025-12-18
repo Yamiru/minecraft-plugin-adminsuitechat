@@ -1,0 +1,23 @@
+# Türkçe (Türkiye)
+language:
+  name: "Türkçe"
+  code: "tr_TR"
+
+messages:
+  no-permission: "&c✗ İzniniz yok!"
+  config-reloaded: "&a✓ Yapılandırma yeniden yüklendi!"
+  invalid-command: "&cKullanım: /asc <reload|list>"
+  player-only: "&c✗ Sadece oyuncular!"
+  channels-loaded: "&a✓ {count} kanal yüklendi"
+  
+  helpme-disabled: "&c✗ HelpMe devre dışı!"
+  helpme-usage: "&cKullanım: /helpme <mesaj>"
+  helpme-sent: "&a✓ Yardım talebi personele gönderildi!"
+  helpme-cooldown: "&c✗ Lütfen {time} saniye bekleyin!"
+  no-admins-online: "&c✗ Çevrimiçi personel yok!"
+  
+  log-rotation-complete: "&a✓ Günlük döndürüldü: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktif kanallar &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7veya &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

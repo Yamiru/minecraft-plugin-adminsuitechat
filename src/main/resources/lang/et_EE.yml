@@ -1,0 +1,23 @@
+# Eesti (Eesti)
+language:
+  name: "Eesti"
+  code: "et_EE"
+
+messages:
+  no-permission: "&c✗ Sul pole õigust!"
+  config-reloaded: "&a✓ Konfiguratsioon uuesti laaditud!"
+  invalid-command: "&cKasutamine: /asc <reload|list>"
+  player-only: "&c✗ Ainult mängijatele!"
+  channels-loaded: "&a✓ Laaditud {count} kanalit"
+  
+  helpme-disabled: "&c✗ HelpMe on keelatud!"
+  helpme-usage: "&cKasutamine: /helpme <sõnum>"
+  helpme-sent: "&a✓ Abi taotlus saadetud personalile!"
+  helpme-cooldown: "&c✗ Palun oota veel {time} sekundit!"
+  no-admins-online: "&c✗ Personal pole võrgus!"
+  
+  log-rotation-complete: "&a✓ Logi roteeritud: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktiivsed kanalid &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7või &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

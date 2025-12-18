@@ -1,0 +1,23 @@
+# Čeština (Česko)
+language:
+  name: "Čeština"
+  code: "cs_CZ"
+
+messages:
+  no-permission: "&c✗ Nemáš oprávnění!"
+  config-reloaded: "&a✓ Konfigurace znovu načtena!"
+  invalid-command: "&cPoužití: /asc <reload|list>"
+  player-only: "&c✗ Pouze pro hráče!"
+  channels-loaded: "&a✓ Načteno {count} kanálů"
+  
+  helpme-disabled: "&c✗ HelpMe je vypnuto!"
+  helpme-usage: "&cPoužití: /helpme <zpráva>"
+  helpme-sent: "&a✓ Žádost o pomoc odeslána personálu!"
+  helpme-cooldown: "&c✗ Počkej ještě {time} sekund!"
+  no-admins-online: "&c✗ Žádný personál není online!"
+  
+  log-rotation-complete: "&a✓ Log rotován: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktivní kanály &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7nebo &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

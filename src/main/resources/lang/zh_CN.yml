@@ -1,0 +1,23 @@
+# 简体中文 (中国)
+language:
+  name: "简体中文"
+  code: "zh_CN"
+
+messages:
+  no-permission: "&c✗ 你没有权限!"
+  config-reloaded: "&a✓ 配置已重新加载!"
+  invalid-command: "&c用法: /asc <reload|list>"
+  player-only: "&c✗ 仅限玩家!"
+  channels-loaded: "&a✓ 已加载 {count} 个频道"
+  
+  helpme-disabled: "&c✗ HelpMe已禁用!"
+  helpme-usage: "&c用法: /helpme <消息>"
+  helpme-sent: "&a✓ 求助请求已发送给工作人员!"
+  helpme-cooldown: "&c✗ 请等待 {time} 秒!"
+  no-admins-online: "&c✗ 没有工作人员在线!"
+  
+  log-rotation-complete: "&a✓ 日志已轮换: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&l活跃频道 &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7或 &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

@@ -1,0 +1,23 @@
+# English (United States)
+language:
+  name: "English"
+  code: "en_US"
+
+messages:
+  no-permission: "&c✗ You don't have permission!"
+  config-reloaded: "&a✓ Configuration reloaded!"
+  invalid-command: "&cUsage: /asc <reload|list>"
+  player-only: "&c✗ Players only!"
+  channels-loaded: "&a✓ Loaded {count} channels"
+  
+  helpme-disabled: "&c✗ HelpMe disabled!"
+  helpme-usage: "&cUsage: /helpme <message>"
+  helpme-sent: "&a✓ Help request sent to staff!"
+  helpme-cooldown: "&c✗ Please wait {time} seconds!"
+  no-admins-online: "&c✗ No staff members online!"
+  
+  log-rotation-complete: "&a✓ Log rotated: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lActive Channels &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7or &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

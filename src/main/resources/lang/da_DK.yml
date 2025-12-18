@@ -1,0 +1,23 @@
+# Dansk (Danmark)
+language:
+  name: "Dansk"
+  code: "da_DK"
+
+messages:
+  no-permission: "&c✗ Du har ikke tilladelse!"
+  config-reloaded: "&a✓ Konfiguration genindlæst!"
+  invalid-command: "&cBrug: /asc <reload|list>"
+  player-only: "&c✗ Kun for spillere!"
+  channels-loaded: "&a✓ {count} kanaler indlæst"
+  
+  helpme-disabled: "&c✗ HelpMe deaktiveret!"
+  helpme-usage: "&cBrug: /helpme <besked>"
+  helpme-sent: "&a✓ Hjælp anmodning sendt til personale!"
+  helpme-cooldown: "&c✗ Vent {time} sekunder!"
+  no-admins-online: "&c✗ Intet personale online!"
+  
+  log-rotation-complete: "&a✓ Log roteret: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktive kanaler &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7eller &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

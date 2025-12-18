@@ -1,0 +1,23 @@
+# Norsk (Norge)
+language:
+  name: "Norsk"
+  code: "no_NO"
+
+messages:
+  no-permission: "&c✗ Du har ikke tillatelse!"
+  config-reloaded: "&a✓ Konfigurasjon lastet på nytt!"
+  invalid-command: "&cBruk: /asc <reload|list>"
+  player-only: "&c✗ Kun for spillere!"
+  channels-loaded: "&a✓ {count} kanaler lastet"
+  
+  helpme-disabled: "&c✗ HelpMe deaktivert!"
+  helpme-usage: "&cBruk: /helpme <melding>"
+  helpme-sent: "&a✓ Hjelpeforespørsel sendt til personalet!"
+  helpme-cooldown: "&c✗ Vent {time} sekunder!"
+  no-admins-online: "&c✗ Ingen personale online!"
+  
+  log-rotation-complete: "&a✓ Logg rotert: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktive kanaler &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7eller &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

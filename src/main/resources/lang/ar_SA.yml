@@ -1,0 +1,23 @@
+# العربية (السعودية)
+language:
+  name: "العربية"
+  code: "ar_SA"
+
+messages:
+  no-permission: "&c✗ ليس لديك صلاحية!"
+  config-reloaded: "&a✓ تم إعادة تحميل التكوين!"
+  invalid-command: "&cالاستخدام: /asc <reload|list>"
+  player-only: "&c✗ للاعبين فقط!"
+  channels-loaded: "&a✓ تم تحميل {count} قناة"
+  
+  helpme-disabled: "&c✗ HelpMe معطل!"
+  helpme-usage: "&cالاستخدام: /helpme <رسالة>"
+  helpme-sent: "&a✓ تم إرسال طلب المساعدة إلى الموظفين!"
+  helpme-cooldown: "&c✗ يرجى الانتظار {time} ثانية!"
+  no-admins-online: "&c✗ لا يوجد موظفون متصلون!"
+  
+  log-rotation-complete: "&a✓ تم تدوير السجل: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lالقنوات النشطة &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7أو &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

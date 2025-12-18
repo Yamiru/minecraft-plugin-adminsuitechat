@@ -1,0 +1,23 @@
+# Polski (Polska)
+language:
+  name: "Polski"
+  code: "pl_PL"
+
+messages:
+  no-permission: "&c✗ Nie masz uprawnień!"
+  config-reloaded: "&a✓ Konfiguracja przeładowana!"
+  invalid-command: "&cUżycie: /asc <reload|list>"
+  player-only: "&c✗ Tylko dla graczy!"
+  channels-loaded: "&a✓ Załadowano {count} kanałów"
+  
+  helpme-disabled: "&c✗ HelpMe wyłączone!"
+  helpme-usage: "&cUżycie: /helpme <wiadomość>"
+  helpme-sent: "&a✓ Prośba o pomoc wysłana do personelu!"
+  helpme-cooldown: "&c✗ Poczekaj jeszcze {time} sekund!"
+  no-admins-online: "&c✗ Brak personelu online!"
+  
+  log-rotation-complete: "&a✓ Log rotowany: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktywne kanały &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7lub &f{shortcut}"
+  channel-list-footer: "&6&m                                    "

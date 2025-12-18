@@ -1,0 +1,23 @@
+# Lietuvių (Lietuva)
+language:
+  name: "Lietuvių"
+  code: "lt_LT"
+
+messages:
+  no-permission: "&c✗ Neturite leidimo!"
+  config-reloaded: "&a✓ Konfigūracija perkrauta!"
+  invalid-command: "&cNaudojimas: /asc <reload|list>"
+  player-only: "&c✗ Tik žaidėjams!"
+  channels-loaded: "&a✓ Įkelta {count} kanalų"
+  
+  helpme-disabled: "&c✗ HelpMe išjungtas!"
+  helpme-usage: "&cNaudojimas: /helpme <žinutė>"
+  helpme-sent: "&a✓ Pagalbos prašymas išsiųstas personalui!"
+  helpme-cooldown: "&c✗ Palaukite dar {time} sekundžių!"
+  no-admins-online: "&c✗ Nėra personalo prisijungę!"
+  
+  log-rotation-complete: "&a✓ Žurnalas pakeistas: {filename}"
+  
+  channel-list-header: "&6&m          &r &e&lAktyvūs kanalai &6&m          "
+  channel-list-item: "&7• {prefix} &8- &f/{command} &7arba &f{shortcut}"
+  channel-list-footer: "&6&m                                    "
